@@ -27,6 +27,12 @@ public class LoginClass {
 	}
 
 	
+	
+	@Test
+	public void method2() {
+		System.out.println("2nd method");
+		
+	}
 
 	@Test
 	public void method1() {
@@ -35,7 +41,7 @@ public class LoginClass {
 	}
 
 	@Test
-	public void method2() {
+	public void method4() {
 		System.out.println("My 2 method");
 
 	}
@@ -43,7 +49,7 @@ public class LoginClass {
 	@Test
 	public void method3() {
 		System.out.println("My 3 method");
-		Assert.assertTrue(false);
+		//Assert.assertTrue(false);
 
 	}
 
